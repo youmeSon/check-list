@@ -1,14 +1,15 @@
-import React from 'react';
-import styles from './item.module.css';
+import React from "react";
+import styles from "./item.module.css";
 import { ImBin } from "react-icons/im";
 
-export default function Item() {
-    return (
-      <div className={styles.list}>
+export default function Item(props) {
+  return (
+    <div className={styles.list}>
+      <li>
         <input type='checkbox' name='list-checkbox' />
-        <label for='list-checkbox'>study react</label>
+        <label>{props.todo}</label>
         <ImBin />
-      </div>
-    );
+      </li>
+    </div>
+  );
 }
-
