@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./Items.module.css";
 import Item from "./Item";
 import Header from "./Header";
+import ItemsAdd from "./ItemsAdd";
 
 export default function Items() {
   const items = [
@@ -19,6 +20,7 @@ export default function Items() {
             <Item todo={item.todo} key={item.id} />
           ))}
         </ul>
+        <ItemsAdd />
       </div>
     </div>
   );

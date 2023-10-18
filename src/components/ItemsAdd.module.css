@@ -1,0 +1,6 @@
+.addSection {
+  position: absolute;
+  bottom: 1rem;
+  margin: auto;
+  transform: translateX(50%);
+}

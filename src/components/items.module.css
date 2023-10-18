@@ -4,6 +4,7 @@
   background-color: rgb(36, 36, 79);
   margin: auto;
   transform: translateY(25%);
+  position: relative;
 }
 
 .itemsList {
