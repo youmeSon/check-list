@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import styles from "./items.module.css";
-import Item from "./item";
+import styles from "./Items.module.css";
+import Item from "./Item";
 
 export default function Items() {
   const items = [

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./item.module.css";
+import styles from "./Item.module.css";
 import { ImBin } from "react-icons/im";
 
 export default function Item(props) {
