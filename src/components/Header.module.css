@@ -1,0 +1,17 @@
+.header {
+  background-color: rgb(17, 17, 53);
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.headerList {
+  list-style: none;
+  display: flex;
+
+  margin: 0;
+}
+
+.list {
+  padding-right: 1rem;
+}

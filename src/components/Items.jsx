@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Items.module.css";
 import Item from "./Item";
+import Header from "./Header";
 
 export default function Items() {
   const items = [
@@ -12,6 +13,7 @@ export default function Items() {
   return (
     <div>
       <div className={styles.items}>
+        <Header />
         <ul>
           {items.map((item) => (
             <Item todo={item.todo} key={item.id} />
