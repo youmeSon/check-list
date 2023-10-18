@@ -14,7 +14,7 @@ export default function Items() {
     <div>
       <div className={styles.items}>
         <Header />
-        <ul>
+        <ul className={styles.itemsList}>
           {items.map((item) => (
             <Item todo={item.todo} key={item.id} />
           ))}
